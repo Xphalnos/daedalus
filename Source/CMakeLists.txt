@@ -226,7 +226,7 @@ if(CTR)
 endif(CTR)
 
 if(DAEDALUS_SDL)
-	find_package(SDL2 CONFIG REQUIRED)
+	find_package(SDL2 CONFIG)
 
 	if(GCC_LEGACY)
 	find_package(fmt REQUIRED)
